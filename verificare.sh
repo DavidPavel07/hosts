@@ -24,3 +24,5 @@ cat /etc/hosts | while read ip name rest; do
 
     verifica_ip "$name" "$ip" "$dns_server"
 done
+
+echo "calin"
